@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Essential meta tags for responsive behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="description" content="A collection of responsive footer designs from basic to premium">
+    <title>Responsive Footer Collection | Modern Web Design</title>
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Third-party CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" 
+          rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦶</text></svg>">
+    <style>
+        /* Additional styles for the showcase */
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline:hover {
+            background: rgba(59, 130, 246, 0.1);
+        }
+        
+        .btn-next {
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-next:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        
+        .btn-top {
+            background: var(--gray-700);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-top:hover {
+            background: var(--gray-600);
+            transform: translateY(-2px);
+        }
+        
+        .footer-preview {
+            margin-bottom: 4rem;
+            scroll-margin-top: 1rem;
+        }
+        
+        .footer-preview:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <span class="badge">Premium Collection</span>
+                    <h1>Modern Footer <span class="gradient-text">Designs</span></h1>
+                    <p class="subtitle">A curated collection of responsive footer templates,<br>from minimal to premium, for your next project.</p>
+                    <div class="header-cta">
+                        <a href="#footer2" class="btn btn-primary">
+                            <span>Explore Footers</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="header-visual">
+                    <div class="visual-container">
+                        <div class="footer-preview-card">
+                            <div class="footer-preview-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="footer-preview-content">
+                                <div class="footer-preview-item"></div>
+                                <div class="footer-preview-item"></div>
+                                <div class="footer-preview-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-wave">
+            
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Footer 1 Preview -->
+            <section class="footer-preview" id="footer1">
+                <h2>1. Minimal Footer</h2>
+                <div class="preview-container">
+                    <iframe src="footers/footer1.html" class="footer-frame" frameborder="0" scrolling="no" title="Minimal Footer Preview"></iframe>
+                </div>
+                <div class="code-actions">
+                    <a href="footers/footer1.html" target="_blank" class="btn">
+                        <i class="fas fa-expand"></i> View Full Screen
+                    </a>
+                    <a href="#" class="btn btn-outline" onclick="copyCode('footer1'); return false;">
+                        <i class="far fa-copy"></i> Copy Code
+                    </a>
+                    <a href="#footer2" class="btn btn-next">
+                        Next <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer 2 Preview -->
+            <section class="footer-preview" id="footer2">
+                <h2>2. Basic Columns</h2>
+                <div class="preview-container">
+                    <iframe src="footers/footer2.html" class="footer-frame" frameborder="0" scrolling="no" title="Basic Columns Footer Preview"></iframe>
+                </div>
+                <div class="code-actions">
+                    <a href="footers/footer2.html" target="_blank" class="btn">
+                        <i class="fas fa-expand"></i> View Full Screen
+                    </a>
+                    <a href="#" class="btn btn-outline" onclick="copyCode('footer2'); return false;">
+                        <i class="far fa-copy"></i> Copy Code
+                    </a>
+                    <a href="#footer3" class="btn btn-next">
+                        Next <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer 3 Preview -->
+            <section class="footer-preview" id="footer3">
+                <h2>3. Responsive Multi-Column</h2>
+                <div class="preview-container">
+                    <iframe src="footers/footer3.html" class="footer-frame" frameborder="0" scrolling="no" title="Responsive Multi-Column Footer Preview"></iframe>
+                </div>
+                <div class="code-actions">
+                    <a href="footers/footer3.html" target="_blank" class="btn">
+                        <i class="fas fa-expand"></i> View Full Screen
+                    </a>
+                    <a href="#" class="btn btn-outline" onclick="copyCode('footer3'); return false;">
+                        <i class="far fa-copy"></i> Copy Code
+                    </a>
+                    <a href="#footer4" class="btn btn-next">
+                        Next <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer 4 Preview -->
+            <section class="footer-preview" id="footer4">
+                <h2>4. Modern Newsletter</h2>
+                <div class="preview-container">
+                    <iframe src="footers/footer4.html" class="footer-frame" frameborder="0" scrolling="no" title="Modern Newsletter Footer Preview"></iframe>
+                </div>
+                <div class="code-actions">
+                    <a href="footers/footer4.html" target="_blank" class="btn">
+                        <i class="fas fa-expand"></i> View Full Screen
+                    </a>
+                    <a href="#" class="btn btn-outline" onclick="copyCode('footer4'); return false;">
+                        <i class="far fa-copy"></i> Copy Code
+                    </a>
+                    <a href="#footer5" class="btn btn-next">
+                        Next <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer 5 Preview -->
+            <section class="footer-preview" id="footer5">
+                <h2>5. Premium Tech Company</h2>
+                <div class="preview-container">
+                    <iframe src="footers/footer5.html" class="footer-frame" frameborder="0" scrolling="no" title="Premium Tech Company Footer Preview"></iframe>
+                </div>
+                <div class="code-actions">
+                    <a href="footers/footer5.html" target="_blank" class="btn">
+                        <i class="fas fa-expand"></i> View Full Screen
+                    </a>
+                    <a href="#" class="btn btn-outline" onclick="copyCode('footer5'); return false;">
+                        <i class="far fa-copy"></i> Copy Code
+                    </a>
+                    <a href="#" class="btn btn-top">
+                        <i class="fas fa-arrow-up"></i> Back to Top
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+                <path fill="#0f172a" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,154.7C384,149,480,107,576,106.7C672,107,768,149,864,165.3C960,181,1056,171,1152,154.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 0C8.954 0 0 8.954 0 20s8.954 20 20 20 20-8.954 20-20S31.046 0 20 0zm0 36c-8.837 0-16-7.163-16-16S11.163 4 20 4s16 7.163 16 16-7.163 16-16 16z" fill="#3B82F6"/>
+                                <path d="M20 10c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z" fill="#60A5FA"/>
+                                <path d="M20 16c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z" fill="#3B82F6"/>
+                            </svg>
+                            <span>Footer<span class="highlight">Pro</span></span>
+                        </div>
+                        <p class="tagline">Premium footer templates for modern web experiences</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Subscribe to our newsletter for the latest updates and resources.</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Your email address" required>
+                                <button type="submit" class="btn-submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">&copy; 2025 FooterPro. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#">Privacy Policy</a>
+                        <span class="divider">•</span>
+                        <a href="#">Terms of Service</a>
+                        <span class="divider">•</span>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (this.getAttribute('href') === '#') return;
+                
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Update URL without adding to history
+                    history.pushState(null, null, targetId);
+                }
+            });
+        });
+        
+        // Back to top functionality
+        document.querySelectorAll('.btn-top').forEach(btn => {
+            btn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+                history.pushState(null, null, ' ');
+            });
+        });
+        
+        // Copy code functionality
+        async function copyCode(footerId) {
+            try {
+                // In a real implementation, we would fetch the actual code here
+                const footerNames = {
+                    'footer1': 'Minimal Footer',
+                    'footer2': 'Basic Columns Footer',
+                    'footer3': 'Responsive Multi-Column Footer',
+                    'footer4': 'Modern Newsletter Footer',
+                    'footer5': 'Premium Tech Company Footer'
+                };
+                
+                const footerName = footerNames[footerId] || footerId;
+                const codeToCopy = `<!-- ${footerName} HTML -->\n<!-- See the full code in footers/${footerId}.html -->`;
+                
+                await navigator.clipboard.writeText(codeToCopy);
+                
+                // Show success message
+                const btn = document.querySelector(`a[onclick*="${footerId}"]`);
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                
+                // Revert button text after 2 seconds
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                }, 2000);
+                
+            } catch (err) {
+                console.error('Failed to copy code: ', err);
+                alert('Failed to copy code to clipboard. Please try again.');
+            }
+            
+            return false;
+        }
+        
+        // Set iframe heights after load
+        window.addEventListener('load', () => {
+            document.querySelectorAll('.footer-frame').forEach(iframe => {
+                iframe.onload = function() {
+                    this.style.height = this.contentWindow.document.documentElement.scrollHeight + 'px';
+                };
+                // Force reload to ensure height is set correctly
+                iframe.contentWindow.location.reload();
+            });
+        });
+    </script>
+</body>
+</html>
